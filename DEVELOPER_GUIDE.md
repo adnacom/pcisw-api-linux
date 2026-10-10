@@ -80,19 +80,16 @@ sudo udevadm trigger
 
 ## 3. Installation
 
-### From the SDK package
+The SDK is not published on PyPI; install it from this repository.
 
 ```bash
-pip install adnacom-monitor
+git clone https://github.com/adnacom/pcisw-api-linux.git
+cd pcisw-api-linux
+./install.sh          # sets up the adnacom-venv virtual environment
 ```
 
-### From source
-
-```bash
-git clone <repository-url>
-cd adnacom_monitor_sdk
-pip install .
-```
+To add it to an existing environment instead, run `pip install .` from the
+repository root.
 
 ### Verify installation
 

@@ -10,10 +10,10 @@ readme = "README.md"
 license = {file = "LICENSE"}
 requires-python = ">=3.10"
 authors = [
-    {name = "cjonesii", email = "cjonesii@example.com"},
+    {name = "Adnacom, Inc."},
 ]
 maintainers = [
-    {name = "cjonesii", email = "cjonesii@example.com"},
+    {name = "Adnacom, Inc."},
 ]
 keywords = ["pcie", "monitoring", "gtk", "hardware", "diagnostics"]
 classifiers = [
@@ -58,9 +58,9 @@ build = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/cjonesii/adnacom_monitor_sdk"
-Repository = "https://github.com/cjonesii/adnacom_monitor_sdk"
-Issues = "https://github.com/cjonesii/adnacom_monitor_sdk/issues"
+Homepage = "https://github.com/adnacom/pcisw-api-linux"
+Repository = "https://github.com/adnacom/pcisw-api-linux"
+Issues = "https://github.com/adnacom/pcisw-api-linux/issues"
 
 [project.scripts]
 adnacom-monitor = "adnacom_monitor.adnacom_monitor:main"

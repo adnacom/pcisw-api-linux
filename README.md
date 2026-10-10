@@ -1,7 +1,6 @@
 # Adnacom Monitor SDK
 
-[![PyPI version](https://badge.fury.io/py/adnacom-monitor.svg)](https://pypi.org/project/adnacom-monitor/)
-[![Python Version](https://img.shields.io/pypi/pyversions/adnacom-monitor)](https://pypi.org/project/adnacom-monitor/)
+![Python 3.10 – 3.13](https://img.shields.io/badge/python-3.10%20%E2%80%93%203.13-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 SDK for monitoring and diagnosing Adnacom PCIe host adapters. Ships pre-compiled native libraries exposing a high-level Python API, along with a GTK3 application that serves as a reference implementation of that API.
@@ -206,8 +205,8 @@ See [DEVELOPER_GUIDE.md](DEVELOPER_GUIDE.md) for the full API reference.
 ## Development
 
 ```bash
-git clone https://github.com/cjonesii/adnacom_monitor_sdk.git
-cd adnacom_monitor_sdk
+git clone https://github.com/adnacom/pcisw-api-linux.git
+cd pcisw-api-linux
 python3 -m venv adnacom-venv --system-site-packages
 source adnacom-venv/bin/activate
 pip install -e ".[dev]"
