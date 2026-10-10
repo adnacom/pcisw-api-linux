@@ -1,0 +1,15 @@
+Adnacom Monitor SDK
+Copyright (c) 2026 Adnacom, Inc.
+
+This project is licensed under the MIT License (see LICENSE).
+
+The following components are distributed in compiled binary form only;
+their source is not included in this repository:
+
+  - adnacom_monitor/Protocol.cpython-*.so
+  - adnacom_monitor/firmware.cpython-*.so
+
+The MIT License applies to these binaries as distributed and does not
+require source disclosure. All other files in this repository — the
+GTK reference application, tests, and build scripts — are provided in
+full source form under the same MIT License.

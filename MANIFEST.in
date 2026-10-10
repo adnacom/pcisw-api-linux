@@ -1,0 +1,14 @@
+include README.md
+include install.sh
+include LICENSE
+include NOTICE
+include pyproject.toml
+include requirements.txt
+include MANIFEST.in
+recursive-include adnacom_monitor *.py
+recursive-include adnacom_monitor *.so
+recursive-include adnacom_monitor *.svg
+recursive-include adnacom_monitor *.png
+recursive-include adnacom_monitor *.desktop
+recursive-include screenshots *.png
+recursive-include tests *.py
